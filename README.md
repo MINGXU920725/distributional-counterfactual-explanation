@@ -13,7 +13,7 @@ The repository is the official implementation of the paper *Constrained Distribu
 | Resource Path                  | Usage Description                                                                 |
 |---------------------------|--------------------------------------------------------------------------|
 | `data/`                   | Stores raw experimental datasets                                                       |
-| `HELOC/` / `cardio/` / `market/` | Independent experiment directories for each dataset:<br>• Contains experiment running scripts (e.g., `cardio_new.py`) responsible for transferring data/models to GPU<br>• Stores experiment result files (e.g., `.xlsx`) and running logs (`output_*.log`) |
+| `HELOC/` / `cardio/` / `market/` | Independent experiment directories for each dataset:<br>• Contains experiment running scripts (e.g., `cardio_new.py`) responsible for transferring data/models to GPU<br>• Stores experiment result files (e.g., `.xlsx`) |
 | `scripts/run_validation_dataset.sh` | Batch script to run all experiments for the three validation datasets (HELOC / cardio / market) with one click |
 | `HELOC_analysis.ipynb` / `cardio_analysis.ipynb` / `market_analysis.ipynb` | Dataset analysis Notebooks in the root directory, corresponding to the analysis of experimental results for the three validation datasets |
 | `26_german_credit.ipynb` | Full-process file for German Credit case study:<br>• Includes experiment running and result analysis|
